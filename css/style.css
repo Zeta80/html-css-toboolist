@@ -5,17 +5,22 @@
     box-sizing: border-box;
 }
 
+html {
+    font-family: sans-serif;
+}
+
 body {
-    background-color: lightgray;
+    background-color: #f6f8f9;
 }
 
 header {
-    background-color: aqua;
+    background-color: white;
     height: 50px;
     padding-left: 20px;
     padding-top: 10px;
     padding-bottom: 70px;
     margin-bottom: 3rem;
+    font-size: 1.5rem;
 }
 
 #logo-toboolist {
@@ -51,9 +56,10 @@ header {
 .container-box {
     background-color: white;
     width: 70%;
-    border: 1px solid black;
+    border: 1px solid white;
     border-radius: 5px 5px 0 0;
-    text-align: left;    
+    text-align: left;
+    font-size: 1rem;    
 }
 
 .container-box.margin {
@@ -67,6 +73,29 @@ header {
     padding-bottom: 1rem;
 }
 
+.button {
+    border: none;
+    border-radius: 8px;
+    color: white;
+    padding: 5px 15px;
+    text-align: center;
+    /* text-decoration: none; */
+    display: inline-block;
+    font-size: 0.8rem;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.button.add-task{
+    background-color:#45abea;; /* Green */  
+}
+
+.button.add-selection {
+    background-color: white;
+    border: 1px solid grey;
+    color: grey;
+}
+
 .padding-left {
     padding-left: 30px;
     /* margin-left: 60px; */
@@ -74,6 +103,7 @@ header {
 
 .container-box ul {
     list-style-position: inside;
+    list-style-type: none;
 }
 
 .task {
@@ -81,12 +111,8 @@ header {
     margin-bottom: 40px;
 }
 
-ul {
-    list-style-type: none;
-}
-
 li {
-    padding: 0.5rem;
+    padding: 0.8rem;
 }
 
 .icon-green {
@@ -95,11 +121,24 @@ li {
     color: green;
     /* width: 20px; */
     /* background-color: aqua; */
-    text-align: center;
+    
     margin-right: 10px;
-    /* width: 3rem;
-    height: 3rem; */
+    display: inline-block;
+    width: 1.2rem;
+    height: 1.2rem;
+    line-height: 1.1rem;
+    text-align: center;
 }
+
+/*
+    display: inline-block;
+    background-color: orange;
+    border-radius: 50%;
+    width: 3rem;
+    height: 3rem;
+    line-height: 3rem;
+    text-align: center; */
+
 
 .icon-red {
     border: 2px solid red;
@@ -107,58 +146,49 @@ li {
     color: red;
     /* width: 20px; */
     /* background-color: aqua; */
-    text-align: center;
     margin-right: 10px;
-    /* width: 3rem;
-    height: 3rem; */
+    display: inline-block;
+    width: 1.2rem;
+    height: 1.2rem;
+    line-height: 1.1rem;
+    text-align: center;
 }
 
-
-.editorial {
-    border: 2px solid aqua;
-    background-color: aqua;
+.tags {
     border-radius: 30px;
     color: rgb(255, 255, 255);
     padding: 4px;
+    font-size: 0.7rem;
+}
+
+.editorial {
+    border: 2px solid#45abea;
+    background-color: #45abea;  
 }
 
 .q1-goals {
-    border: 2px solid rgb(242, 0, 255);
-    background-color: purple;
-    border-radius: 30px;
-    color: rgb(255, 255, 255);
-    padding: 4px;
+    border: 2px solid #9c72e4;
+    background-color: #9c72e4;   
 }
 
 .recruiting {
-    border: 2px solid rgb(0, 255, 149);
-    background-color: green;
-    border-radius: 30px;
-    color: rgb(255, 255, 255);
-    padding: 4px;
+    border: 2px solid #64c0a9;
+    background-color: #64c0a9;  
 }
 
 .mobile {
-    border: 2px solid orange;
-    background-color: orange;
-    border-radius: 30px;
-    color: rgb(255, 255, 255);
-    padding: 4px;
+    border: 2px solid #f29e33;
+    background-color: #f29e33;   
 }
 
 .website {
-    border: 2px solid pink;
-    background-color: pink;
-    border-radius: 30px;
-    color: rgb(255, 255, 255);
-    padding: 4px;
+    border: 2px solid #d863a1;
+    background-color: #d863a1;   
 }
 
 .sales {
-    border: 2px solid lightgreen;
-    background-color: lightgreen;
-    border-radius: 30px;
-    color: rgb(255, 255, 255);
-    padding: 4px;
+    border: 2px solid #b0c926;
+    background-color: #b0c926;
 }
+
 
