@@ -15,11 +15,13 @@ header {
     padding-left: 20px;
     padding-top: 10px;
     padding-bottom: 70px;
+    margin-bottom: 3rem;
 }
 
 #logo-toboolist {
    height: 50px; 
    line-height: 50px;
+   
 }
 
 #logo-toboolist h1  {
@@ -49,10 +51,20 @@ header {
 .container-box {
     background-color: white;
     width: 70%;
-    margin: 5% auto;
     border: 1px solid black;
-    border-radius: 40px;
-    text-align: left;
+    border-radius: 5px 5px 0 0;
+    text-align: left;    
+}
+
+.container-box.margin {
+    margin: 5% auto;
+    margin-bottom: 3px;
+    margin-top: 3px;
+}
+
+#button-nav {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 
 .padding-left {
@@ -63,3 +75,90 @@ header {
 .container-box ul {
     list-style-position: inside;
 }
+
+.task {
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    padding: 0.5rem;
+}
+
+.icon-green {
+    border: 2px solid green;
+    border-radius: 50%;
+    color: green;
+    /* width: 20px; */
+    /* background-color: aqua; */
+    text-align: center;
+    margin-right: 10px;
+    /* width: 3rem;
+    height: 3rem; */
+}
+
+.icon-red {
+    border: 2px solid red;
+    border-radius: 50%;
+    color: red;
+    /* width: 20px; */
+    /* background-color: aqua; */
+    text-align: center;
+    margin-right: 10px;
+    /* width: 3rem;
+    height: 3rem; */
+}
+
+
+.editorial {
+    border: 2px solid aqua;
+    background-color: aqua;
+    border-radius: 30px;
+    color: rgb(255, 255, 255);
+    padding: 4px;
+}
+
+.q1-goals {
+    border: 2px solid rgb(242, 0, 255);
+    background-color: purple;
+    border-radius: 30px;
+    color: rgb(255, 255, 255);
+    padding: 4px;
+}
+
+.recruiting {
+    border: 2px solid rgb(0, 255, 149);
+    background-color: green;
+    border-radius: 30px;
+    color: rgb(255, 255, 255);
+    padding: 4px;
+}
+
+.mobile {
+    border: 2px solid orange;
+    background-color: orange;
+    border-radius: 30px;
+    color: rgb(255, 255, 255);
+    padding: 4px;
+}
+
+.website {
+    border: 2px solid pink;
+    background-color: pink;
+    border-radius: 30px;
+    color: rgb(255, 255, 255);
+    padding: 4px;
+}
+
+.sales {
+    border: 2px solid lightgreen;
+    background-color: lightgreen;
+    border-radius: 30px;
+    color: rgb(255, 255, 255);
+    padding: 4px;
+}
+
